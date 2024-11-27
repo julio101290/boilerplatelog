@@ -7,11 +7,11 @@ CodeIgniter4 Boilerplatelog librery for save log of changes in other modules
 
 ### Run command 
 
-    composer require julio101290/boilerplatecompanies
+    composer require julio101290/boilerplatelog
 
 ### Run command for migration and seeder
 
-	boilerplatecompanies:installcompaniescrud
+	php spark boilerplatelog:installlog
  
 ### Make the menu
 ![image](https://github.com/user-attachments/assets/9357327f-3188-4895-9a6e-d0fc379787ba)
