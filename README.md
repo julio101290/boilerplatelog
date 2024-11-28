@@ -1,7 +1,7 @@
 [![Latest Stable Version](https://poser.okvpn.org/julio101290/boilerplatecompanies/v/stable)](https://packagist.org/packages/julio101290/boilerplatecompanies) [![Total Downloads](https://poser.okvpn.org/julio101290/boilerplatecompanies/downloads)](https://packagist.org/packages/julio101290/boilerplatecompanies) [![Latest Unstable Version](https://poser.okvpn.org/julio101290/boilerplatecompanies/v/unstable)](https://packagist.org/packages/julio101290/boilerplatecompanies) [![License](https://poser.okvpn.org/julio101290/boilerplatecompanies/license)](https://packagist.org/packages/julio101290/boilerplatecompanies)
 
 ## CodeIgniter 4 Boilerplate Log
-CodeIgniter4 Boilerplatelog librery for save log of changes in other modules
+CodeIgniter4 Boilerplatelog library for save log of changes in other modules
 
 ## Installation
 
