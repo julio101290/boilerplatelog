@@ -7,6 +7,7 @@ CodeIgniter4 Boilerplatelog library for save log of changes in other modules
 
 ### Run command 
 
+    composer require hermawan/codeigniter4-datatables
     composer require julio101290/boilerplatelog
 
 ### Run command for migration and seeder
@@ -14,7 +15,8 @@ CodeIgniter4 Boilerplatelog library for save log of changes in other modules
 	php spark boilerplatelog:installlog
  
 ### Make the menu
-![image](https://github.com/user-attachments/assets/9357327f-3188-4895-9a6e-d0fc379787ba)
+![image](https://github.com/user-attachments/assets/f22994f2-217d-466a-b1fb-f17d2377da22)
+
 
 
 
