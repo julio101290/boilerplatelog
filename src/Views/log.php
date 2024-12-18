@@ -7,7 +7,6 @@
 <!-- Section content -->
 <?= $this->section('content') ?>
 
-<?= $this->include('modulesLog/modalCaptureLog') ?>
 
 <!-- SELECT2 EXAMPLE -->
 <div class="card card-default">
