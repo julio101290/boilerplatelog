@@ -11,7 +11,7 @@ class AddLogTableAddModuleFields extends Migration
         $this->forge->addColumn('log', [
             'module' => [
                 'type'       => 'VARCHAR',
-                'constraint' => 256,
+                'constraint' => 8,
                 'null'       => true,
             ],
             'idMovModule' => [
