@@ -57,6 +57,8 @@ class LogController extends BaseController {
                 'id' => 'a.id',
                 'description' => 'a.description',
                 'user' => 'a.user',
+                'module' => 'a.module',
+                'idMovModule' => 'a.module',
                 'created_at' => 'a.created_at',
                 'updated_at' => 'a.updated_at',
                 'deleted_at' => 'a.deleted_at'

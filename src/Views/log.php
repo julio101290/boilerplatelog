@@ -28,6 +28,8 @@
                                 <th>#</th>
                                 <th><?= lang('log.fields.description') ?></th>
                                 <th><?= lang('log.fields.user') ?></th>
+                                <th><?= lang('log.fields.module') ?></th>
+                                <th><?= lang('log.fields.idMovModule') ?></th>
                                 <th><?= lang('log.fields.created_at') ?></th>
                                 <th><?= lang('log.fields.updated_at') ?></th>
                                 <th><?= lang('log.fields.deleted_at') ?></th>
@@ -86,7 +88,12 @@
             {
                 'data': 'user'
             },
-
+            {
+                'data': 'module'
+            },
+            {
+                'data': 'idMovModule'
+            },
             {
                 'data': 'created_at'
             },

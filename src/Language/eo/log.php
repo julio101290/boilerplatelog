@@ -10,15 +10,17 @@ $log["createEdit"] = "Krei / Redakti";
 $log["title"] = "Administrado de protokoloj";
 $log["subtitle"] = "Listo de protokoloj";
 $log["fields"]["description"] = "Priskribo";
-$log["fields"]["user"] = "Uzanto";
+$log["fields"]["module"] = "Modulo";
+$log["fields"]["idMovModule"] = "ID de movoj"; // Aŭ "Mova ID" laŭ la kunteksto
+$log["fields"]["user"] = "Uzantulo";
 $log["fields"]["created_at"] = "Kreita je";
 $log["fields"]["updated_at"] = "Ĝisdatigita je";
 $log["fields"]["deleted_at"] = "Forigita je";
 
 $log["fields"]["actions"] = "Agoj";
-$log["msg"]["msg_insert"] = "Risko sukcese aldonita.";
-$log["msg"]["msg_update"] = "Risko sukcese modifita.";
-$log["msg"]["msg_delete"] = "Risko sukcese forigita.";
-$log["msg"]["msg_get"] = "Risko sukcese prenita.";
-$log["msg"]["msg_get_fail"] = "Risko ne trovita aŭ forigita.";
+$log["msg"]["msg_insert"] = "Rikordo sukcese aldonita.";
+$log["msg"]["msg_update"] = "Rikordo sukcese ĝisdatigita.";
+$log["msg"]["msg_delete"] = "Rikordo sukcese forigita.";
+$log["msg"]["msg_get"] = "Rikordo sukcese elŝutita.";
+$log["msg"]["msg_get_fail"] = "Rikordo ne trovita aŭ forigita.";
 return $log;

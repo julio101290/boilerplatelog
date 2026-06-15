@@ -8,7 +8,7 @@ class LogModel extends Model{
     protected $useAutoIncrement = true;
     protected $returnType     = 'array';
     protected $useSoftDeletes = true;
-    protected $allowedFields = ['id','description','user','created_at','updated_at','deleted_at'];
+    protected $allowedFields = ['id','description','user','module','idMovModule','created_at','updated_at','deleted_at'];
     protected $useTimestamps = true;
     protected $createdField  = 'created_at';
     protected $deletedField  = 'deleted_at';
@@ -22,7 +22,7 @@ class LogModel extends Model{
     public function mdlGetLog(){
 
         $result = $this->db->table('log a')
-                 ->select('a.id,a.description,a.user,a.created_at,a.updated_at,a.deleted_at');
+                 ->select('a.id,a.description,idMovModule,module,a.user,a.created_at,a.updated_at,a.deleted_at');
  
          return $result;
      }
